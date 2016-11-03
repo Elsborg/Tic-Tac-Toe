@@ -6,3 +6,20 @@ class Apples{
   float ySpeed;
   
 }
+
+
+void display(){
+  
+  
+}
+
+
+
+
+
+void move(){
+  
+  
+  
+  
+}
