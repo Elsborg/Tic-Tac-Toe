@@ -1,4 +1,4 @@
-Apples Appels1 = new Apples();
+Apples myApples = new Apples();
 Player myPlayer1 =new Player();
 
 void setup(){
@@ -12,7 +12,8 @@ void setup(){
 void draw(){
 background(0);
 myPlayer1.display();
-  
+myApples.move();
+myApples.display();
   
   
   
