@@ -3,7 +3,7 @@ Player myPlayer1 = new Player();
 
 void setup(){
   size(600,650);
-  
+  // hej
 }
 
 
