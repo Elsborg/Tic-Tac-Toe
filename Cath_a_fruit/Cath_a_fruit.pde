@@ -2,7 +2,7 @@ Apples myApples = new Apples();
 Player myPlayer1 =new Player();
 
 void setup(){
-  size(600,1000);
+  size(600,650);
  
   
 }
@@ -10,7 +10,7 @@ void setup(){
 
 
 void draw(){
-background(0);
+background(255);
 myPlayer1.display();
 myApples.move();
 myApples.display();
