@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 Apples myApples = new Apples();
-=======
-Apples Appels1 = new Apples();
->>>>>>> origin/master
-
 
 void setup(){
   size(600,650);
@@ -17,8 +12,7 @@ void draw(){
   background(0);
   myApples.display();
   myApples.move();
-  
-  
+ 
   
   
 }
