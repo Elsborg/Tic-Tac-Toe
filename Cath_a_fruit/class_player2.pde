@@ -13,6 +13,6 @@ Player(){
 }
 void display(){
   rectMode(CENTER);
-  rect(mouseX,mouseY,50,20);
+  rect(mouseX,600,50,20);
 }
 }
