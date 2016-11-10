@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Apples myApples = new Apples();
+=======
+Apples Appels1 = new Apples();
+>>>>>>> origin/master
 
 
 void setup(){
@@ -13,6 +17,7 @@ void draw(){
   background(0);
   myApples.display();
   myApples.move();
+  
   
   
   
