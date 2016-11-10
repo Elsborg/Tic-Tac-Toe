@@ -1,8 +1,8 @@
-
+Apples myApples = new Apples();
 
 
 void setup(){
-  size(600,1000);
+  size(600,650);
   background(0);
   
 }
@@ -10,8 +10,9 @@ void setup(){
 
 
 void draw(){
-  
-  
+  background(0);
+  myApples.display();
+  myApples.move();
   
   
   
