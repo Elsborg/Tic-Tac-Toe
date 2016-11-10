@@ -1,5 +1,5 @@
 class Apples{
-  float farve;
+  color farve;
   float xPos;
   float yPos;
   float ySpeed;

@@ -1,18 +1,16 @@
 Apples myApples = new Apples();
+Player myPlayer1 = new Player();
 
 void setup(){
   size(600,650);
-  background(0);
   
 }
 
 
 
 void draw(){
-  background(0);
+  background(255);
+  myPlayer1.display();
   myApples.display();
   myApples.move();
- 
-  
-  
 }
