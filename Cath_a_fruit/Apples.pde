@@ -9,8 +9,8 @@ class Apples{
 Apples(){
     xPos = random(5, 595);
     yPos = -100;
-    ySpeed = random(1, 10);
-    radius = (20);
+    ySpeed = random(1, 4);
+    radius = (25);
     farve = (#E30202);
 }
   void move(){
@@ -20,7 +20,6 @@ Apples(){
     xPos = random(5, 595);
   }
   }
-  
   void display(){
    stroke(0);
    fill(farve);
