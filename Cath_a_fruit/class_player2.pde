@@ -3,7 +3,7 @@ class Player {
   float xPos;
   float yPos;
   float bredde = 50;
-  float højde = 20;
+  float hoejde = 20;
 
   Player() {
     xPos = mouseX;
@@ -12,6 +12,6 @@ class Player {
   }
   void display() {
     rectMode(CENTER);
-    rect(mouseX, yPos, bredde, højde);
+    rect(mouseX, yPos, bredde, hoejde);
   }
 }
