@@ -17,6 +17,7 @@ Apples(){
     yPos = yPos+ySpeed;
   if (yPos > height){
     yPos = -50;
+    xPos = random(5, 595);
   }
   }
   
