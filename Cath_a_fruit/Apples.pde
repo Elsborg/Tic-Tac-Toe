@@ -21,7 +21,7 @@ class Apples {
     }
   }
   void collision() {
-    if (yPos + radius/2> myPlayer1.yPos && mouseX > xPos && mouseX < xPos + myPlayer1.bredde) {
+    if ((yPos + radius> myPlayer1.yPos) && mouseX > xPos && mouseX < xPos + myPlayer1.bredde) {
       yPos = -50;
       xPos = random(5, 595);
     }
@@ -29,6 +29,6 @@ class Apples {
   void display() {
     stroke(0);
     fill(farve);
-    ellipse(xPos, yPos, radius, radius);
+    rect(xPos, yPos, radius, radius);
   }
 }
