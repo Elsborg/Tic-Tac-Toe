@@ -19,11 +19,16 @@ class Apples {
     
   }
   void move() {
+    myPlayer1.lives = 3;
     yPos = yPos+ySpeed;
     if (yPos > height) {
       yPos = -50;
       xPos = random(5, 500);
     }
+    if (yPos > height){
+    myPlayer1.lives = myPlayer1.lives - 1;
+    }
+    println(myPlayer1.lives);
   }
   void collision() {
     distance1 = dist(xPos, yPos+radius/2, myPlayer1.xPos, myPlayer1.yPos);

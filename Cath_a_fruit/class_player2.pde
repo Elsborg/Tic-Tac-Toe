@@ -4,6 +4,7 @@ class Player {
   float yPos;
   float bredde = 50;
   float hoejde = 20;
+  float lives;
 
   Player() {
     xPos = mouseX;
