@@ -10,8 +10,12 @@ class Player {
     yPos = 600;
     c = color(158, 10, 10);
   }
+  
+  
   void display() {
-    rectMode(CENTER);
-    rect(mouseX, yPos, bredde, hoejde);
+    xPos = mouseX;
+    yPos = 600;
+    c = color(158, 10, 10);
+    rect(xPos, yPos, bredde, hoejde);
   }
 }
