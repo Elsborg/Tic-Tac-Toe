@@ -1,23 +1,34 @@
-Apples[] myApples = new Apples[7];
+Apples myApples = new Apples();
+Apples myApples2 = new Apples();
+Apples myApples3 = new Apples();
+Apples myApples4 = new Apples();
+Apples myApples5 = new Apples();
 Player myPlayer1 = new Player();
+Score myScore1 = new Score();
 
 void setup() {
   size(500, 650);
-  for (int i = 0; i < myApples.length; i++) {
-    myApples[i]=new Apples();
-  }
 }
 
 
 
 void draw() {
   background(255);
+  myScore1.display();
   myPlayer1.display();
-  for (int i = 0; i < myApples.length; i++) {
-    myApples[i].display();
-    myApples[i].move();
-    myApples[i].collision();
-    println(myApples[i].score);
-  }
-  println(myPlayer1.xPos);
+  myApples.display();
+  myApples.move();
+  myApples.collision();
+  myApples2.display();
+  myApples2.move();
+  myApples2.collision();
+  myApples3.display();
+  myApples3.move();
+  myApples3.collision();
+  myApples4.display();
+  myApples4.move();
+  myApples4.collision();
+  myApples5.display();
+  myApples5.move();
+  myApples5.collision();
 }

@@ -11,8 +11,8 @@ class Player {
     yPos = 600;
     c = color(158, 10, 10);
   }
-  
-  
+
+
   void display() {
     xPos = mouseX;
     yPos = 600;
