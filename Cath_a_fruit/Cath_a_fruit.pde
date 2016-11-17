@@ -9,6 +9,7 @@ dScreen mydScreen1 = new dScreen();
 
 void setup() {
   size(500, 650);
+  frameRate(60);
 }
 
 
