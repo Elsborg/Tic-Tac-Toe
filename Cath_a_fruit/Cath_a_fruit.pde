@@ -5,6 +5,7 @@ Apples myApples4 = new Apples();
 Apples myApples5 = new Apples();
 Player myPlayer1 = new Player();
 Score myScore1 = new Score();
+dScreen mydScreen1 = new dScreen();
 
 void setup() {
   size(500, 650);
@@ -31,4 +32,6 @@ void draw() {
   myApples5.display();
   myApples5.move();
   myApples5.collision();
+  mydScreen1.display();
+  
 }
