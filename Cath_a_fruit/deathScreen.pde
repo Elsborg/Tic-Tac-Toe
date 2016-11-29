@@ -19,7 +19,7 @@ class dScreen {
       if (keyPressed) {
         if (key == 'r' || key == 'R') {
           background(255);
-          myApples1.yPos = -100;
+          myApples.yPos = -100;
         }
       }
     }
